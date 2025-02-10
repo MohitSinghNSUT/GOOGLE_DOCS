@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.send("hello");
 });
 const corsOption = {
-  origin: "http://localhost:5173",
+  origin: "https://gilded-sherbet-4bea21.netlify.app",
   methods: ["GET", "POST"],
   credentials: true,
 };
