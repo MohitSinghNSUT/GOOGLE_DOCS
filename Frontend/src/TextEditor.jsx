@@ -96,7 +96,7 @@ export const TextEditor = () => {
   }, [socket, quill]);
 
   useEffect(() => {
-    const s = io("http://localhost:3000");
+    const s = io("https://google-docs-clof.onrender.com");
     setSocket(s);
     return () => {
       s.disconnect();
